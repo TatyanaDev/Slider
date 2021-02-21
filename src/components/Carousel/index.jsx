@@ -237,7 +237,7 @@ class Carousel extends Component {
   };
 
   slideShow = () => {
-    const { currentIndex, disabled } = this.state;
+    const { disabled } = this.state;
     this.setState({
       currentIndex: (this.currentIndex = setInterval(this.prevIndex, 2000)),
       disabled: { disabled: !disabled },
@@ -246,8 +246,7 @@ class Carousel extends Component {
 
   stopSlide = () => {
     const { currentIndex } = this.state;
-    this.setState({
-    });
+    this.setState({});
   };
 
   render() {
