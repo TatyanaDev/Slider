@@ -1,0 +1,44 @@
+.slide {
+  display: none;
+}
+
+.currentSlide {
+  display: block;
+}
+
+.wrapper {
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.img {
+  padding-bottom: 30px;
+  max-height: 650px;
+  min-width: 90vw;
+}
+
+.heading {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  font-size: 18px;
+  text-align: start;
+  padding-left: 80px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 95vw;
+}
+
+.info {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: start;
+  padding-left: 80px;
+  min-height: 52px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width:95vw;
+}
