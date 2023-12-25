@@ -1,3 +1,23 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: local("Merriweather"),
+    url("./assets/fonts/Merriweather-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+}

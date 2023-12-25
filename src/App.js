@@ -1,14 +1,5 @@
-import React from "react";
-import StaticSlide from "./components/Carousel/StaticCarousel";
-import Carousel from "./components/Carousel";
+import Slider from "./page/Slider";
 
-function App() {
-  return (
-    <>
-      <Carousel />
-      <StaticSlide />
-    </>
-  );
-}
+const App = () => <Slider />;
 
 export default App;
