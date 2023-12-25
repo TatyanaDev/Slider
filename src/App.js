@@ -1,12 +1,12 @@
 import React from "react";
-import Carousel from "./components/Carousel";
 import StaticSlide from "./components/Carousel/StaticCarousel";
+import Carousel from "./components/Carousel";
 
-function App(props) {
+function App() {
   return (
     <>
       <Carousel />
-      {/* <StaticSlide /> */}
+      <StaticSlide />
     </>
   );
 }

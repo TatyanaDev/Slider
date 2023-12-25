@@ -13,7 +13,7 @@ class StaticSlide extends Component {
             src={
               "https://hubblesite.org/files/live/sites/hubble/files/home/hubble-30th-anniversary/images/_images/hubble_30th_images/hubble-30th-cosmic-reef-2400x1200.jpg?t=tn1200"
             }
-            alt='The Cosmic Reef: NGC 2014 and NGC 2020'
+            alt="The Cosmic Reef: NGC 2014 and NGC 2020"
           />
           <h1 className={styles.heading}>
             The Cosmic Reef: NGC 2014 and NGC 2020
