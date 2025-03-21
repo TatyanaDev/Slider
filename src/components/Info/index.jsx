@@ -1,4 +1,4 @@
-import style from "./info.module.scss";
+import style from "./styles.module.scss";
 
 const Info = ({ slides, currentSlide }) => (
   <div className={style.info}>

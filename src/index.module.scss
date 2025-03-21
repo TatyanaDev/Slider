@@ -10,14 +10,12 @@ body {
 
 @font-face {
   font-family: "Merriweather";
-  src: local("Merriweather"),
-    url("./assets/fonts/Merriweather-Regular.ttf") format("truetype");
+  src: local("Merriweather"), url("./assets/fonts/Merriweather-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins"),
-    url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  src: local("Poppins"), url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
   font-weight: normal;
 }

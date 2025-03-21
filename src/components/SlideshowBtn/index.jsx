@@ -1,10 +1,7 @@
-import style from "./slideshow-btn.module.scss";
+import style from "./styles.module.scss";
 
 const SlideshowBtn = ({ isSlideShow, stopSlideShow, startSlideShow }) => (
-  <button
-    onClick={isSlideShow ? stopSlideShow : startSlideShow}
-    className={style.marginRight}
-  >
+  <button onClick={isSlideShow ? stopSlideShow : startSlideShow} className={style.marginRight}>
     {isSlideShow ? "Stop slideshow" : "Start slideshow"}
   </button>
 );

@@ -1,13 +1,6 @@
-import style from "./slide.module.scss";
+import style from "./styles.module.scss";
 
-const Slide = ({
-  isFullScreen,
-  slides,
-  currentSlide,
-  isSlideShow,
-  prevSlide,
-  nextSlide,
-}) => (
+const Slide = ({ isFullScreen, slides, currentSlide, isSlideShow, prevSlide, nextSlide }) => (
   <div
     style={{
       position: "relative",
@@ -15,11 +8,7 @@ const Slide = ({
       height: isFullScreen ? "100vh" : "560px",
     }}
   >
-    <img
-      src={slides[currentSlide].src}
-      alt={slides[currentSlide].title}
-      className={style.image}
-    />
+    <img src={slides[currentSlide].src} alt={slides[currentSlide].title} className={style.image} />
 
     {!isSlideShow && (
       <div className={style.btnsContainer}>

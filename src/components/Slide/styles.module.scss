@@ -1,0 +1,33 @@
+.image {
+  width: inherit;
+  height: inherit;
+}
+
+.btnsContainer {
+  justify-content: space-between;
+  transform: translateY(-50%);
+  align-items: center;
+  position: absolute;
+  padding: 0 20px;
+  display: flex;
+  top: 50%;
+  right: 0;
+  left: 0;
+
+  button {
+    transition: 0.5s color, 0.5s background;
+    background: #5367f8;
+    border-radius: 50%;
+    color: #f5f5f5;
+    font-size: 23px;
+    border: none;
+    height: 35px;
+    width: 35px;
+
+    &:hover {
+      border: 1px solid #5367f8;
+      background: #f5f5f5;
+      color: #5367f8;
+    }
+  }
+}
